@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PTRONa: descubrí qué podés preparar con los ingredientes que ya tenés en casa.">
+  <title>PTRONa | Tenés los ingredientes, nosotros la receta</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="PTRONa - Inicio">
+        <img src="assets/logo/ptrona-logo.png" alt="Logo PTRONa">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a class="nav-cta" href="#descargar">Descargar</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="eyebrow">COMIDA • POSTRES • CÓCTELES</span>
+          <h1>¿Qué tenés en tu <span>cocina?</span></h1>
+          <p class="hero-text">
+            PTRONa te dice qué podés preparar con los ingredientes que ya tenés.
+            Descubrí nuevas recetas sin comprar ingredientes de más.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#descargar">Descargar app</a>
+            <a class="btn btn-secondary" href="#como-funciona">Cómo funciona</a>
+          </div>
+
+          <p class="hero-note">Empezá con lo que ya tenés.</p>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-image">
+            <img src="assets/images/ptrona-hero.png"
+            alt="Ingredientes disponibles para preparar una receta">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how section" id="como-funciona">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">SIMPLE Y PRÁCTICO</span>
+          <h2>¿Cómo funciona?</h2>
+          <p>Solo necesitás decirle a PTRONa qué ingredientes tenés disponibles.</p>
+        </div>
+
+        <div class="steps">
+          <article class="step-card reveal">
+            <div class="step-number">01</div>
+            <div class="step-icon">🥕</div>
+            <h3>Elegí tus ingredientes</h3>
+            <p>Indicá los ingredientes que tenés disponibles en tu cocina.</p>
+          </article>
+
+          <article class="step-card reveal">
+            <div class="step-number">02</div>
+            <div class="step-icon">🔎</div>
+            <h3>Buscamos recetas</h3>
+            <p>PTRONa compara tus ingredientes con las recetas disponibles.</p>
+          </article>
+
+          <article class="step-card reveal">
+            <div class="step-number">03</div>
+            <div class="step-icon">🍽️</div>
+            <h3>Descubrí qué cocinar</h3>
+            <p>Encontrá primero las recetas que podés preparar sin comprar nada más.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories section">
+      <div class="container categories-box reveal">
+        <div>
+          <span class="eyebrow">DESCUBRÍ POSIBILIDADES</span>
+          <h2>Una cocina, muchas opciones.</h2>
+          <p>
+            Comidas, postres y cócteles adaptados a los ingredientes que tenés disponibles.
+          </p>
+        </div>
+
+        <div class="category-list" aria-label="Categorías">
+          <span>🍲 Comidas</span>
+          <span>🍰 Postres</span>
+          <span>🍹 Cócteles</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="download section" id="descargar">
+      <div class="container download-box reveal">
+        <span class="eyebrow">PRÓXIMAMENTE</span>
+        <h2>Descargá PTRONa</h2>
+        <p>
+          La aplicación estará disponible para que puedas descubrir qué preparar
+          directamente desde tu dispositivo.
+        </p>
+
+        <div class="download-buttons">
+          <a class="store-btn" href="https://github.com/Jose-Micheli/PTRONa/releases/download/v2.0/PTRONa.apk" aria-label="Descargar PTRONa para Android">
+            <span class="store-icon">▶</span>
+            <span>
+              <small>Disponible</small>
+              <strong>Android</strong>
+            </span>
+          </a>
+
+          <a class="store-btn" href="#" aria-label="Descargar PTRONa para Windows">
+            <span class="store-icon">▦</span>
+            <span>
+              <small>Disponible próximamente</small>
+              <strong>Windows</strong>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <strong>PTRONa</strong>
+        <span>Tenés los ingredientes, nosotros la receta.</span>
+      </div>
+      <span>© 2026 PTRONa · Proyecto Final</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
